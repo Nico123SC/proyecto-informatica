@@ -1,4 +1,4 @@
-//Leer un número entero y decir si es positivo, negativo o cero, y además si es par o impar.
+//Leer un nÃºmero entero y decir si es positivo, negativo o cero, y ademÃ¡s si es par o impar.
 #include<stdio.h>
 int main(){
 int numero;
@@ -27,5 +27,5 @@ if (numero % 2 == 0){
     printf("es impar");
 }
 
-return 0;
+  
 }

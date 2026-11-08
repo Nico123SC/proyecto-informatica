@@ -1,4 +1,4 @@
-//Calcular el costo de un terreno cuyo precio es de $900 por m², con descuento del 10% si el área pasa de 500 m² y del 15% si pasa de 1000 m².
+//Calcular el costo de un terreno cuyo precio es de $900 por mÂ², con descuento del 10% si el Ã¡rea pasa de 500 mÂ² y del 15% si pasa de 1000 mÂ².
 
 #include<stdio.h>
 
@@ -20,13 +20,13 @@ preciosindescuento = area * 900;
 if(area > 1000){
 
     descuento = preciosindescuento * .15;
-    printf("Precio con descuento del 15%%: %.2f\n", preciosindescuento - descuento);
+    printf("Precio con descuento del 15%: %.2f\n", preciosindescuento - descuento);
 }
 
-else if(area > 500){
+ if(area > 500){
 
     descuento = preciosindescuento * .10;
-    printf("Precio con descuento del 10%%: %.2f\n", preciosindescuento - descuento);
+    printf("Precio con descuento del 10%: %.2f\n", preciosindescuento - descuento);
 }
 
 else{
@@ -36,7 +36,6 @@ else{
     printf("Precio final: %.2f\n", preciosindescuento);
 }
 
-return 0;
 }
 
 
